@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
+
+* {
+    font-family: 'Noto Sans KR';
+}
+
+.sudoku {
+    background-image: url('../assets/sudoku.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo-wrapper {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.logo {
+    width: 233px;
+    height: 44px;
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.footer {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
